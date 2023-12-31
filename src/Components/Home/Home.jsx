@@ -1,11 +1,14 @@
-import { Link } from "react-router-dom";
-
+import Banner from "./Banner";
+import Featuare from "./Featuare";
+import Coffees from "./Coffees";
 const Home = () => {
-    return (
-        <div>
-            <Link to= '/addcoffe' >Add</Link>
-        </div>
-    );
+  return (
+    <div className="">
+      <Banner />
+      <Featuare />
+      <Coffees />
+    </div>
+  );
 };
 
 export default Home;

@@ -1,11 +1,14 @@
 import { Outlet } from "react-router-dom";
 import "./App.css";
+import Navabar from "./Components/Navabar";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
     <>
-      <h1>Vite + React</h1>
+      <Navabar />
       <Outlet />
+      <Footer />
     </>
   );
 }
